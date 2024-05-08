@@ -1,0 +1,22 @@
+{
+  "name": "socket-redis",
+  "version": "1.0.0",
+  "description": "Socket :- Socket.IO is a library for real-time web applications, enabling bidirectional communication between web clients and servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.3",
+    "install": "^0.13.0",
+    "nodemon": "^3.1.0",
+    "npm": "^10.5.0",
+    "redis": "^4.6.13",
+    "socket.io": "^4.7.4",
+    "socket.io-redis": "^6.1.1"
+  }
+}
